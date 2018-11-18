@@ -10,6 +10,8 @@ type Props = {
   store: Object;
 };
 
+
+// Component is a class to resolve Reac hot loader bug
 const Root = ({ store }: Props) => (
   <Provider store={store}>
     <Router>

@@ -35,7 +35,7 @@ module.exports = [
             {
               loader: 'file-loader',
               options: {
-                outputPath: 'assets/',
+                outputPath: 'static/',
               },
             },
           ],
@@ -78,7 +78,7 @@ module.exports = [
             {
               loader: 'file-loader',
               options: {
-                outputPath: 'assets/',
+                outputPath: 'static/',
               },
             },
           ],
