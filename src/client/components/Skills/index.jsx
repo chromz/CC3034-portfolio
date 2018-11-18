@@ -58,8 +58,8 @@ const SkillTable = styled.div`
 `;
 
 
-const About = () => (
-  <ParallaxSection size={50} color="#777">
+const Skills = () => (
+  <ParallaxSection size={60} color="#777">
     <Header>
       <h1>Skills</h1>
     </Header>
@@ -81,4 +81,4 @@ const About = () => (
   </ParallaxSection>
 );
 
-export default About;
+export default Skills;

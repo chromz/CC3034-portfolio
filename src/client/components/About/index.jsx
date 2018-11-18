@@ -27,13 +27,14 @@ const Article = styled.article`
   & > p {
     flex-grow: 2;
     height: 100%;
-    font-size: 1.3em;
-    padding-left: 17%;
+    font-size: 1.2em;
+    padding-right: 200px;
   }
 `;
 
 const Networks = styled.aside`
   width: 300px;
+  margin-right: 20px;
   height: 100%;
   padding-left: 30px;
   display: flex;

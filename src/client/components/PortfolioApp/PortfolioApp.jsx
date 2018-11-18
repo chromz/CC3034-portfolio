@@ -5,6 +5,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import Intro from '../Intro';
 import About from '../About';
 import Skills from '../Skills';
+import Projects from '../Projects';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -43,6 +44,7 @@ const PortfolioApp = () => (
     <Intro />
     <About />
     <Skills />
+    <Projects />
   </MainFrame>
 );
 

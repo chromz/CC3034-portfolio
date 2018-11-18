@@ -85,7 +85,7 @@ const Intro = () => (
             Projects
           </Item>
           <Item>
-            What&#39;s on my PC
+            What&#39;s on my arsenal
           </Item>
         </List>
       </Nav>
