@@ -8,7 +8,6 @@ import Skills from '../Skills';
 import Projects from '../Projects';
 import Tools from '../Tools';
 
-
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lora');
   html {
@@ -36,8 +35,8 @@ const MainFrame = styled.main`
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 `;
-
 
 const PortfolioApp = () => (
   <MainFrame>

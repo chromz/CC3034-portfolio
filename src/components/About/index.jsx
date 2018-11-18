@@ -59,7 +59,7 @@ const FbImg = styled.img`
 `;
 
 const About = () => (
-  <ParallaxSection size={40} color="white">
+  <ParallaxSection id="about" size={40} color="white">
     <Header>
       <h1>About me</h1>
     </Header>

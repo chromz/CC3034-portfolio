@@ -69,7 +69,7 @@ const ToLink = styled.a`
 `;
 
 const Projects = () => (
-  <ParallaxSection size={60} color="transparent">
+  <ParallaxSection id="projects" size={60} color="transparent">
     <Header>
       <h1>Projects</h1>
     </Header>

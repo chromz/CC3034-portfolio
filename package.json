@@ -7,14 +7,14 @@
     "@babel/cli": "^7.1.5",
     "@babel/polyfill": "^7.0.0",
     "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-hot-loader": "^4.3.12",
     "react-intl": "^2.7.2",
-    "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
-    "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
+    "scroll-to-element": "^2.0.2",
     "styled-components": "^4.1.1"
   },
   "devDependencies": {
@@ -38,13 +38,10 @@
     "regenerator-runtime": "^0.12.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-middleware": "^3.4.0",
-    "webpack-hot-middleware": "^2.24.3",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-dev-server": "^3.1.10"
   },
   "scripts": {
-    "build:dev": "webpack",
-    "start:dev": "npm run build:dev && node dist/server.js",
+    "start:dev": "webpack-dev-server",
     "lint": "eslint --ext .jsx --ext .js src/",
     "test": "jest"
   },

@@ -60,7 +60,7 @@ const SkillTable = styled.div`
 
 
 const Skills = () => (
-  <ParallaxSection size={60} height={200} bgImage={cmatrix}>
+  <ParallaxSection id="skills" size={60} height={200} bgImage={cmatrix}>
     <Header>
       <h1>Skills</h1>
     </Header>

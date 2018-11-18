@@ -1,10 +1,14 @@
 // @flow
 
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
+import scrollToElement from 'scroll-to-element';
 import ParallaxSection from '../ParallaxSection';
 import bgImage from '../../static/code_blur.png';
 
+type Props = {
+
+};
 
 const BioImage = styled.img`
   width: 250px;
@@ -58,6 +62,14 @@ const List = styled.ol`
 
 const Item = styled.li`
   display: inline-block;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
 `;
 
 const Intro = () => (
@@ -76,16 +88,16 @@ const Intro = () => (
       <Nav>
         <List>
           <Item>
-            About me
+            <a href="#about">About me</a>
           </Item>
           <Item>
-            Skills
+            <a href="#skills">Skills</a>
           </Item>
           <Item>
-            Projects
+            <a href="#projects">Projects</a>
           </Item>
           <Item>
-            What&#39;s on my PC
+            <a href="#tools">What&#39;s on my PC</a>
           </Item>
         </List>
       </Nav>

@@ -59,7 +59,7 @@ const Tool = styled.li`
 `;
 
 const Tools = () => (
-  <ParallaxSection size={100} bgImage={bg}>
+  <ParallaxSection id="tools" size={100} bgImage={bg}>
     <Header>
       <h1>What&#39;s on my PC</h1>
     </Header>
