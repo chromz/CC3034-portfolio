@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { hot } from 'react-hot-loader';
 import PortfolioApp from '../PortfolioApp';
 
 
@@ -13,4 +12,4 @@ const Root = () => (
   </Router>
 );
 
-export default hot(module)(Root);
+export default Root;
