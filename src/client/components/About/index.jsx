@@ -58,18 +58,6 @@ const FbImg = styled.img`
   margin-top: -5px;
 `;
 
-const Decorator = styled.div`
-  position: absolute;
-  width: 0;
-  height: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom: 200px solid #777;
-  border-left: 200px solid transparent; 
-
-`;
-
-
 const About = () => (
   <ParallaxSection size={40} color="white">
     <Header>
@@ -98,7 +86,6 @@ const About = () => (
           enthusiast and crazy for computer science related stuff.
         </p>
       </Article>
-      <Decorator />
     </InfoSection>
   </ParallaxSection>
 );

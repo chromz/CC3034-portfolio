@@ -34,7 +34,7 @@ const Skill = styled.div`
   }
 `;
 
-const SkillLabel = styled.div`
+const SkillLabel = styled.label`
   background-color: white;
   color: #777;
   width: 20%;

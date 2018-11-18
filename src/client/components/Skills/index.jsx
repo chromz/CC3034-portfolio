@@ -4,6 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ParallaxSection from '../ParallaxSection';
 import SkillBar from '../SkillBar';
+import cmatrix from '../../static/cmatrix_blur.png';
 
 const Header = styled.header`
   width: 100%;
@@ -59,7 +60,7 @@ const SkillTable = styled.div`
 
 
 const Skills = () => (
-  <ParallaxSection size={60} color="#777">
+  <ParallaxSection size={60} height={200} bgImage={cmatrix}>
     <Header>
       <h1>Skills</h1>
     </Header>

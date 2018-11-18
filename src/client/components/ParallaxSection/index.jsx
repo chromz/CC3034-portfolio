@@ -5,6 +5,7 @@ import styled, { css } from 'styled-components';
 
 type Props = {
   size: number,
+  height?: number,
   bgImage?: string,
   color?: string,
   children?: React.Node,
@@ -14,8 +15,8 @@ type Props = {
 const layerCss = css`
   position: absolute;
   top: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   left: 0;
 `;
 
@@ -29,13 +30,16 @@ ${
 
 const Background = styled.div`
 ${
-  ({ bgImage, color }) => {
+  ({ bgImage, color, height }) => {
     let bgCss = '';
     if (bgImage) {
       bgCss += `background-image: url(${bgImage});\n`;
     }
     if (color) {
-      bgCss += `background-color: ${color}\n`;
+      bgCss += `background-color: ${color};\n`;
+    }
+    if (height) {
+      bgCss += `height: ${height}%;\n`;
     }
     return bgCss;
   }
@@ -50,6 +54,7 @@ const Base = styled.div`
   ${layerCss}
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 
@@ -66,6 +71,7 @@ ParallaxSection.defaultProps = {
   children: undefined,
   color: undefined,
   bgImage: undefined,
+  height: undefined,
 };
 
 export default ParallaxSection;

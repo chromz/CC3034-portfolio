@@ -6,6 +6,7 @@ import Intro from '../Intro';
 import About from '../About';
 import Skills from '../Skills';
 import Projects from '../Projects';
+import Tools from '../Tools';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -45,6 +46,7 @@ const PortfolioApp = () => (
     <About />
     <Skills />
     <Projects />
+    <Tools />
   </MainFrame>
 );
 
