@@ -22,6 +22,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lora', serif;
   }
 
+  @media (max-width: 1366px) {
+    html {
+      font-size: 12px;
+    }
+  }
+
   div#root {
     width: 100%;
     height: 100%;
