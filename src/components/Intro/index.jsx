@@ -1,14 +1,9 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import scrollToElement from 'scroll-to-element';
 import ParallaxSection from '../ParallaxSection';
 import bgImage from '../../static/code_blur.png';
-
-type Props = {
-
-};
 
 const BioImage = styled.img`
   width: 250px;

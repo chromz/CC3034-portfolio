@@ -3,7 +3,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ParallaxSection from '../ParallaxSection';
-import fb from '../../static/fb.png';
+import linkedin from '../../static/linkedin.png';
 
 const Header = styled.header`
   width: 100%;
@@ -73,10 +73,10 @@ const About = () => (
               src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png"
             />
           </a>
-          <a href="https://www.facebook.com/Chromze">
+          <a href="https://www.linkedin.com/in/rodrigo-custodio-855333162">
             <FbImg
-              alt="Facebook"
-              src={fb}
+              alt="LinkedIn"
+              src={linkedin}
             />
           </a>
         </Networks>
