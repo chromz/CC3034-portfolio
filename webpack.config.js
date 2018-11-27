@@ -35,6 +35,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Rodrigo Custodio',
+      favicon: './src/static/icon.ico',
       template: 'src/template.html',
     }),
   ],
